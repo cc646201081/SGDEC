@@ -1,0 +1,81 @@
+C:\ProgramData\Anaconda3\envs\tensorf\python.exe "D:/pycharmproject/SGDEC/sgdec_example.py"
+Using TensorFlow backend.
+2023-04-20 09:58:44.732196: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2023-04-20 09:58:44.732295: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:4115: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+Loading pretrained weights for autoencoder.
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:181: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:186: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2023-04-20 09:58:46.533592: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2023-04-20 09:58:46.537591: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2023-04-20 09:58:46.554929: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: NVIDIA GeForce RTX 3090 major: 8 minor: 6 memoryClockRate(GHz): 1.695
+pciBusID: 0000:01:00.0
+2023-04-20 09:58:46.555349: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2023-04-20 09:58:46.555701: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cublas64_100.dll'; dlerror: cublas64_100.dll not found
+2023-04-20 09:58:46.556117: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cufft64_100.dll'; dlerror: cufft64_100.dll not found
+2023-04-20 09:58:46.556425: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'curand64_100.dll'; dlerror: curand64_100.dll not found
+2023-04-20 09:58:46.556781: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusolver64_100.dll'; dlerror: cusolver64_100.dll not found
+2023-04-20 09:58:46.557253: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusparse64_100.dll'; dlerror: cusparse64_100.dll not found
+2023-04-20 09:58:46.557552: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudnn64_7.dll'; dlerror: cudnn64_7.dll not found
+2023-04-20 09:58:46.557634: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-04-20 09:58:46.811815: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-04-20 09:58:46.811899: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2023-04-20 09:58:46.811945: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:206: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+Initializing cluster centres with k-means.
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:1521: The name tf.log is deprecated. Please use tf.math.log instead.
+
+Update interval 36.3203125
+Save interval 1816.015625
+Iteration 0, Accuracy0.48182 , NMI 0.70703 , ARI 0.33299
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensorf1\lib\site-packages\keras\backend\tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+Iteration 4649, Accuracy0.48182 , NMI 0.75834 , ARI 0.44713
+Iteration 9298, Accuracy0.58174 , NMI 0.82945 , ARI 0.60454
+Iteration 13947, Accuracy0.66692 , NMI 0.87126 , ARI 0.68122
+Iteration 18596, Accuracy0.66692 , NMI 0.87126 , ARI 0.68122
+Iteration 23245, Accuracy0.66692 , NMI 0.87126 , ARI 0.68122
+Iteration 27894, Accuracy0.66692 , NMI 0.87126 , ARI 0.68122
+Iteration 32543, Accuracy0.66692 , NMI 0.87126 , ARI 0.68122
+Iteration 37192, Accuracy0.66692 , NMI 0.87126 , ARI 0.68122
+Iteration 41841, Accuracy0.66692 , NMI 0.87126 , ARI 0.68122
+Iteration 46490, Accuracy0.74392 , NMI 0.90982 , ARI 0.76834
+Iteration 51139, Accuracy0.66692 , NMI 0.87218 , ARI 0.68571
+Iteration 55788, Accuracy0.66692 , NMI 0.87218 , ARI 0.68571
+Iteration 60437, Accuracy0.74392 , NMI 0.90982 , ARI 0.76834
+Iteration 65086, Accuracy0.74704 , NMI 0.9104 , ARI 0.77046
+Iteration 69735, Accuracy0.74704 , NMI 0.9104 , ARI 0.77046
+Iteration 74384, Accuracy0.74704 , NMI 0.9104 , ARI 0.77046
+Iteration 79033, Accuracy0.82319 , NMI 0.93769 , ARI 0.82062
+Iteration 83682, Accuracy0.82007 , NMI 0.93712 , ARI 0.81828
+Iteration 88331, Accuracy0.82007 , NMI 0.93712 , ARI 0.81828
+Iteration 92980, Accuracy0.82007 , NMI 0.93712 , ARI 0.81828
+Iteration 97629, Accuracy0.71564 , NMI 0.88684 , ARI 0.70015
+Reached maximum iteration limit. Stopping training.
+
+Process finished with exit code 0
